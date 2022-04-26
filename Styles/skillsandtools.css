@@ -5,11 +5,11 @@ body {
 /* Top Navigation Styling */
 .topNav {
     display:grid;
-    grid-template-columns: 76% 8% 8% 8%;
+    grid-template-columns: 60% 15% 15% 15%;
     margin: 0px;
     background-color:rgba(135, 127, 119, .8);
-    height: 20px;
-    padding: 25px;
+    height: 30px;
+    padding: 10px;
         /* IMG FOR HOME BUTTON TO ADD */
 
     .aboutMe {
@@ -29,8 +29,9 @@ body {
        font-size: 18px;
        line-height: 25px;
        letter-spacing: 0.25em;
+       grid-column-start:span 4;
+       grid-column-end:span 5;
     }
-}
 
 /* Total Section "MY UX SKILLS" */
 .uxSkillsMainSection {
@@ -38,12 +39,12 @@ body {
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 25% 10% 65%;
     grid-column-start: 0;
-    grid-column-end: 4;
+    grid-column-end: 3;
 }
 
 /* Large Title Styling "My UX Skills" */
 .h1Header { 
-    font-family: 'WindSong';
+    font-family:'WindSong'
     font-size: 55px;
     font-weight: 400px;
     line-height: 77px;
