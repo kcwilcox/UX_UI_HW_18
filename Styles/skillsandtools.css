@@ -4,54 +4,89 @@ body {
 
 /* Top Navigation Styling */
 .topNav {
-    display:grid;
-    grid-template-columns: 60% 15% 15% 15%;
     margin: 0px;
     background-color:rgba(135, 127, 119, .8);
     height: 30px;
     padding: 10px;
+    text-align: end;
         /* IMG FOR HOME BUTTON TO ADD */
-
-    .aboutMe {
-        color:'black';
-        font-family:'OpenSans';
-        font style: normal;
-        font-weight: 400px;
-        font-size: 18px;
-        line-height: 25px;
-        letter-spacing: 0.25em;
-    }
-    .myWork { 
+}
+    a { 
        color:black;
        font-family:'OpenSans';
        font-style: normal;
        font-weight: 400px;
        font-size: 18px;
        line-height: 25px;
+       padding: 20px;
        letter-spacing: 0.25em;
-       grid-column-start:span 4;
-       grid-column-end:span 5;
     }
 
 /* Total Section "MY UX SKILLS" */
 .uxSkillsMainSection {
-    display:grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 25% 10% 65%;
-    grid-column-start: 0;
-    grid-column-end: 3;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column 3;
+    margin: 50px;
 }
 
 /* Large Title Styling "My UX Skills" */
 .h1Header { 
-    font-family:'WindSong'
+    font-family: WindSong;
     font-size: 55px;
     font-weight: 400px;
     line-height: 77px;
     grid-column-start: span 1;
     grid-column-end: span 4;
-    justify-content: center;
-    display: flex;
-        align-items: center;
-        letter-spacing: 0.05em;
+    text-align: center;
+    letter-spacing: 0.05em;
 }
+li {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+}
+
+h2 {
+    font-family: 'Open Sans';
+    font-style: normal; 
+    font-weight: 300px;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+}
+
+h1 {
+    font-family: WindSong;
+    font-size: 55px;
+    font-weight: 400px;
+    line-height: 77px;
+    grid-column-start: span 1;
+    grid-column-end: span 4;
+    text-align: center;
+    letter-spacing: 0.05em;
+    align-items: center;
+}
+
+.myTools {
+margin: 50px;
+}
+
+footer {
+    margin: 0px;
+    background-color:rgba(135, 127, 119, .8);
+    height: 30px;
+    padding: 10px;
+}
+
+
+/* .uxSkills {
+    display: flex;
+    align-items: center;
+    flex-direction: column 3;
+    flex-direction: row 1;
+    text-align: center;
+} */
