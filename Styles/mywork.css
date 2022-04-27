@@ -1,0 +1,81 @@
+body {
+    margin: 0px;
+}
+
+/* Top Navigation Styling */
+.topNav {
+    margin: 0px;
+    background-color: rgba(135, 127, 119, .8);
+    height: 30px;
+    padding: 10px;
+    text-align: end;
+    /* IMG FOR HOME BUTTON TO ADD */
+}
+
+a {
+    color: black;
+    font-family: 'OpenSans';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 20px;
+    letter-spacing: 0.25em;
+}
+
+h1 {
+    font-family: WindSong;
+    font-size: 55px;
+    font-weight: 400px;
+    line-height: 77px;
+    grid-column-start: span 1;
+    grid-column-end: span 4;
+    text-align: center;
+    letter-spacing: 0.05em;
+    align-items: center;
+}
+
+    .caseStudies {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    .ftcDiv{
+        width: 400px;
+        padding: 50px;
+        margin: 20px;
+    }
+    .ftc {
+        height:400px;
+        width: 400px;
+        padding: 10px;
+    }
+.hhDiv {
+    width: 400px;
+    padding: 50px;
+}
+    .hh {
+        height:400px;
+        width: 400px;
+        padding: 10px;
+    }
+.mracDiv {
+    width: 400px;
+    padding: 10px;
+    margin: 20px    
+}
+    .mrac {
+        height:400px;
+        width: 400px;
+        padding: 10px;
+    }
+
+    footer {
+        margin: 0px;
+        background-color: rgba(135, 127, 119, .8);
+        height: 30px;
+        padding: 10px;
+        }
